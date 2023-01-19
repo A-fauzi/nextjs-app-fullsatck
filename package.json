@@ -22,6 +22,14 @@
     "@storybook/manager-webpack5": "^6.5.15",
     "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0"
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "babel-loader": "^8.3.0",
+    "eslint": "^8.32.0",
+    "eslint-config-standard-with-typescript": "^31.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
+    "typescript": "^4.9.4"
   }
 }
