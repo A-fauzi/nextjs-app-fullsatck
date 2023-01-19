@@ -1,6 +1,8 @@
 // import "../styles/globals.css";
 import "../styles/homepage.css";
 import "../styles/utilities.css";
+import "../styles/detail.css";
+
 import { AppProps } from "next/app";
 import Head from "next/head";
 
@@ -15,9 +17,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
           crossOrigin="anonymous"
         />
-        {/* <!-- Custom CSS --> */}
-        <link rel="stylesheet" href="./css/homepage.css" />
-        <link rel="stylesheet" href="./css/utilities.css" />
 
         {/* <!-- Google Font --> */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />
