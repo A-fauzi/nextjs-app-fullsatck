@@ -2,8 +2,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  
   return (
-    // Tag pembungkus untuk membungkus komponen lebih dari satu
+    // Tag pembungkus(fragment) untuk membungkus komponen lebih dari satu
     <>
       {/* // <!-- Navbar --> */}
       <section>
@@ -136,14 +137,14 @@ export default function Home() {
               <div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
                 <div className="position-relative" data-aos="zoom-in">
                   <img
-                    src="./assets/img/Header-1.png"
+                    src="/assets/img/Header-1.png"
                     className="img-fluid"
                     alt=""
                   />
                   <div className="card left-card position-absolute border-0">
                     <div className="d-flex align-items-center mb-16 gap-3">
                       <img
-                        src="./assets/img/Header-2.png"
+                        src="/assets/img/Header-2.png"
                         width="40"
                         height="40"
                         className="rounded-pill"
@@ -224,7 +225,7 @@ export default function Home() {
                   <div className="card right-card position-absolute border-0">
                     <div className="position-relative d-flex flex-row justify-content-center mb-24">
                       <img
-                        src="./assets/img/Header-3.png"
+                        src="/assets/img/Header-3.png"
                         className="rounded-pill"
                         alt=""
                       />
@@ -515,7 +516,7 @@ export default function Home() {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="./assets/img/Thumbnail-1.png"
+                    src="/assets/img/Thumbnail-1.png"
                     width="205"
                     height="270"
                     alt=""
@@ -551,7 +552,7 @@ export default function Home() {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="./assets/img/Thumbnail-2.png"
+                    src="/assets/img/Thumbnail-2.png"
                     width="205"
                     height="270"
                     alt=""
@@ -587,7 +588,7 @@ export default function Home() {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="./assets/img/Thumbnail-3.png"
+                    src="/assets/img/Thumbnail-3.png"
                     width="205"
                     height="270"
                     alt=""
@@ -623,7 +624,7 @@ export default function Home() {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="./assets/img/Thumbnail-4.png"
+                    src="/assets/img/Thumbnail-4.png"
                     width="205"
                     height="270"
                     alt=""
@@ -659,7 +660,7 @@ export default function Home() {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="./assets/img/Thumbnail-5.png"
+                    src="/assets/img/Thumbnail-5.png"
                     width="205"
                     height="270"
                     alt=""
@@ -750,7 +751,7 @@ export default function Home() {
               data-aos="zoom-in"
             >
               <img
-                src="./assets/img/Header-9.png"
+                src="/assets/img/Header-9.png"
                 width="612"
                 height="452"
                 className="img-fluid"
