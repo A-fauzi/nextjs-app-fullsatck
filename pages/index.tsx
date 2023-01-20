@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import Navbar from "../components/Organisms/navbar";
-import Index from "../components/Organisms/footer/Index";
-import MainBanner from "../components/Organisms/mainbanner";
+import LandingPage from "../components/Organisms/landing-page";
 import Footer from "../components/Organisms/footer/Index";
 
 
@@ -16,8 +15,8 @@ export default function Home() {
       {/* // <!-- Navbar --> */}
       <Navbar />
 
-      {/* Main Banner */}
-      <MainBanner />
+      {/* Landing page */}
+      <LandingPage />
 
       {/* <!-- Footer --> */}
       <Footer />

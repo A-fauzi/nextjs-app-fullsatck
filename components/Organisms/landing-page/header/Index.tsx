@@ -1,4 +1,4 @@
-// @flow 
+// @flow
 import * as React from 'react';
 import Ilustration from './Ilustration';
 type Props = {
@@ -29,14 +29,14 @@ export default function Header() {
                         <div className="d-flex flex-lg-row flex-column gap-4">
                             <a
                                 className="btn btn-get text-lg text-white rounded-pill"
-                                href="#feature"
+                                href="components/Organisms/landing-page/header/Index#feature"
                                 role="button"
                             >
                                 Get Started
                             </a>
                             <a
                                 className="btn-learn text-lg color-palette-1 my-auto text-center"
-                                href="#"
+                                href="components/Organisms/landing-page/header/Index#"
                                 role="button"
                             >
                                 Learn More

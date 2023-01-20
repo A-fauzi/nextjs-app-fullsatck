@@ -1,13 +1,13 @@
-import Feature from "./Feature";
-import FeaturedGame from "./featured-game/Index";
+import Feature from "./feature-step";
 import Header from "./header/Index";
-import Reached from "./reached";
+import Reached from "./reached/index"
+import FeaturedGame from "./featured-game/Index";
 import Story from "./Story";
 
 type Props = {
 
 };
-export default function MainBanner() {
+export default function LandingPage() {
     return (
         <>
             {/* // <!-- Header --> */}

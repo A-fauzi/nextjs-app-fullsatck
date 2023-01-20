@@ -1,4 +1,4 @@
-// @flow 
+// @flow
 import * as React from 'react';
 type Props = {
 
@@ -35,7 +35,7 @@ export default function Story() {
                             <div className="d-md-block d-flex flex-column w-100">
                                 <a
                                     className="btn btn-read text-lg rounded-pill"
-                                    href="#"
+                                    href="components/Organisms/landing-page/Story#"
                                     role="button"
                                 >
                                     Read Story
