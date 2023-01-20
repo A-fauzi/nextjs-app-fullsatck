@@ -1,5 +1,6 @@
 // @flow
 import * as React from "react";
+import Link from "next/link";
 
 export default function checkout() {
   return (
@@ -120,13 +121,14 @@ export default function checkout() {
           <span className="checkmark"></span>
         </label>
         <div className="d-md-block d-flex flex-column w-100 pt-50">
-          <a
-            className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg"
-            href="./complete-checkout.html"
-            role="button"
-          >
-            Confirm Payment
-          </a>
+          <Link legacyBehavior href={'/complete-checkout'}>
+            <a
+              className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg"
+              role="button"
+            >
+              Confirm Payment
+            </a>
+          </Link>
         </div>
       </div>
     </section>
