@@ -3,6 +3,7 @@ import AOS from "aos";
 import Navbar from "../components/Organisms/navbar";
 import Index from "../components/Organisms/footer/Index";
 import MainBanner from "../components/Organisms/mainbanner";
+import Footer from "../components/Organisms/footer/Index";
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
       <MainBanner />
 
       {/* <!-- Footer --> */}
-      <Index />
+      <Footer />
     </>
   );
 }

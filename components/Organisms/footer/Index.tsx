@@ -3,7 +3,7 @@ import * as React from 'react';
 type Props = {
 
 };
-export default function Index() {
+export default function Footer() {
     return (
         <section className="footer pt-50">
             <footer>
