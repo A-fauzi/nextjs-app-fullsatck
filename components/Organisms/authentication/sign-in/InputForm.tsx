@@ -3,14 +3,15 @@ import * as React from 'react';
 type InputFormProps = {
     type: string,
     label: string,
-    placeHolder: string
+    placeHolder: string,
+    className?: string
 
 };
-export const InputForm = (props: InputFormProps) => {
-    const { type, label, placeHolder } = props
+export const InputForm = (props: Partial<InputFormProps>) => {
+    const { type, label, placeHolder, className } = props
     return (
         <>
-            <div className="pt-50">
+            <div className={className}>
                 <label
                     htmlFor={type}
                     className="form-label text-lg fw-medium color-palette-1 mb-10"
