@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import { Profile } from './Profile';
-import { MenuSidebar } from './Menu';
+import { MenuSidebar } from './menu';
 import { FooterSidebar } from './FooterSidebar';
 type Props = {
 

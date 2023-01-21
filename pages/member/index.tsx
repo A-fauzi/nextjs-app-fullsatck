@@ -1,7 +1,7 @@
 // @flow
 import * as React from "react";
-import { Sidebar } from "../../components/sidebar";
-import { MemberOverview } from "../../components/member-overview";
+import { Sidebar } from "../../components/Organisms/member-sidebar";
+import { MemberOverview } from "../../components/Organisms/member-overview";
 type Props = {};
 export default function Overview() {
   return (
