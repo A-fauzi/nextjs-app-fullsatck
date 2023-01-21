@@ -26,7 +26,7 @@ export const ItemLatestTransaction = (props: Partial<ItemTransactionsProps>) => 
         <>
             <tr className="align-middle text-center">
                 <th scope="row">
-                    <img
+                    <Image
                         className="float-start me-3 mb-lg-0 mb-3"
                         src={`/assets/img/${image}.png`}
                         width="80"
