@@ -61,15 +61,7 @@
 }
 
 @media (min-height: 900px) {
-  /* .sidebar .content {
-    overflow-y: hidden;
-  } */
-}
-
-/* Mobile phone*/
-/* Ozi Custome */
-@media only screen and (max-width: 768px) {
   .sidebar .content {
-    display: none;
+    overflow-y: hidden;
   }
 }

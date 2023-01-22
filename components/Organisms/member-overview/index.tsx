@@ -10,7 +10,6 @@ export const MemberOverview = (props: Props) => {
         <main className="main-wrapper">
             <div className="ps-lg-0">
                 <h2 className="text-4xl fw-bold color-palette-1 mb-30">Overview</h2>
-                <img className='avatar-mobile' src='assets/img/avatar-1.png' />
 
                 {/*Topup Categories */}
                 <TopUpCategories />
